@@ -18,8 +18,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 public class RegisterActivity extends BaseActivity implements HttpOnNextListener{
-    @BindView(R.id.edit_1)
-    EditText editText1;
+
     @BindView(R.id.edit_2)
     EditText editText2;
     @BindView(R.id.edit_3)
@@ -65,7 +64,7 @@ public class RegisterActivity extends BaseActivity implements HttpOnNextListener
     @OnClick(R.id.register)
     public void register(View view){
 
-        map.put("surveyorName",editText1.getText().toString());
+
         map.put("surveyorPassword",editText2.getText().toString());
         map.put("surveyorLevel",editText3.getText().toString());
         map.put("surveyorOrg",editText4.getText().toString());
