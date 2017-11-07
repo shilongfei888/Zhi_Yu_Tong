@@ -1,0 +1,149 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:background="#37CBF7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="渔船检验"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:background="#9EDD6B"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="渔船抽查"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:background="#7DBAD7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="产品抽查"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:background="#F1DA5A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="柴油机核查"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/x200"
+                android:background="#6F91CE"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="在线学习"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        //数据库插件
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1'
+        //注解插件
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext{
+
+    //统一版本号
+    android = [compileSdkVersion : 26,
+               buildToolsVersion : "26.0.1",
+               minSdkVersion: 14,
+               targetSdkVersion  : 26,
+               versionCode       : 1,
+               versionName       : "1.0"]
+
+    //统一jar包引用
+//    dependencies = ["support-v7"        : 'com.android.support:appcompat-v7:23.+',
+//                    "design"            : 'com.android.support:design:23.+',
+//                    "rx_android"        : 'io.reactivex:rxandroid:1.0.1',
+//                    "rx_binding"        : 'com.jakewharton.rxbinding:rxbinding:0.2.0',
+//                    "retrofit"          : 'com.squareup.retrofit2:retrofit:2.0.0-beta3',
+//                    "retrofit_adapter"  : 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta3']
+
+}
+
+
