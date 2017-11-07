@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="ImageSelectorTheme" parent="BaseTheme" />
+
+    <style name="ImageShowTheme" parent="android:Theme.NoTitleBar.Fullscreen"></style>
+</resources>
